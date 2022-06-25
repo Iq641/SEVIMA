@@ -133,7 +133,7 @@ class MstMapelController extends Controller
 		$model->unsetAttributes();  // clear any default values
 		if(isset($_GET['MstMapel']))
 			$model->attributes=$_GET['MstMapel'];
-
+		print_r("test");die;
 		$this->render('admin',array(
 			'model'=>$model,
 		));
