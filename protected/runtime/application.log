@@ -19275,3 +19275,1388 @@ Stack trace:
 REQUEST_URI=/sevima/apel/site/index.php
 HTTP_REFERER=http://localhost/sevima/apel/
 ---
+2022/06/25 13:55:46 [error] [php] include(CDBCriteria.php): failed to open stream: No such file or directory (D:\xampp\htdocs\sevima\sevima\yii-core\framework\YiiBase.php:432)
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\protected\controllers\MstKategoriController.php(24): spl_autoload_call()
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\actions\CInlineAction.php(49): MstKategoriController->actionIndex()
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): MstKategoriController->runAction()
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): MstKategoriController->runActionWithFilters()
+#5 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): MstKategoriController->run()
+#6 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\sevima\sevima\index.php(13): CWebApplication->run()
+REQUEST_URI=/sevima/sevima/mstkategori/index
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\MstKategoriController.php (24)
+in D:\xampp\htdocs\sevima\sevima\index.php (13)
+2022/06/25 14:28:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user6-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:28:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:28:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:28:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user5-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:28:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:28:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user7-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:30:05 [error] [php] Undefined variable: go (D:\xampp\htdocs\sevima\sevima\protected\views\mstKategori\index.php:12)
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(869): MstKategoriController->renderFile()
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(782): MstKategoriController->renderPartial()
+#2 D:\xampp\htdocs\sevima\sevima\protected\controllers\MstKategoriController.php(27): MstKategoriController->render()
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\actions\CInlineAction.php(49): MstKategoriController->actionIndex()
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): MstKategoriController->runAction()
+#6 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): MstKategoriController->runActionWithFilters()
+#7 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): MstKategoriController->run()
+#8 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\sevima\sevima\index.php(13): CWebApplication->run()
+REQUEST_URI=/sevima/sevima/mstkategori/index
+in D:\xampp\htdocs\sevima\sevima\protected\views\mstKategori\index.php (12)
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\MstKategoriController.php (27)
+in D:\xampp\htdocs\sevima\sevima\index.php (13)
+2022/06/25 14:30:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:30:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:30:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user7-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:30:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user5-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:30:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user6-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:30:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:30:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:30:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:30:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user6-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:30:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:30:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user5-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:30:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user7-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:30:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:30:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user7-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:30:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user5-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:30:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:30:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:30:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user6-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:31:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:31:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:31:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user5-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:31:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user7-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:31:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user6-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:31:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:32:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:32:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:32:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user6-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:32:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user7-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:32:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user5-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:32:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:32:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:32:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user7-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:32:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:32:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:32:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user6-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:32:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user5-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:33:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user5-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:33:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:33:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:33:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:33:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user7-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:33:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user6-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:34:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:34:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user7-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:34:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:34:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user6-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:34:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user5-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:34:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:38:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:38:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:38:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user7-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:38:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user5-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:38:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:38:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user6-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:39:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:39:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:39:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:39:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user6-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:39:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user5-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:39:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user7-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:40:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:40:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:40:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user6-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:40:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user5-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:40:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:40:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user7-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:41:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:41:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:41:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user6-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:41:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user5-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:41:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user7-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:41:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:42:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:42:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user7-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:42:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:42:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:42:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user6-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:42:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user5-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:42:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:42:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user7-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:42:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user6-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:42:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:42:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:42:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user5-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:43:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:43:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user5-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:43:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:43:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:43:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user6-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:43:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user7-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:43:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user6-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:43:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:43:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:43:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user5-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:43:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user7-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:43:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:43:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:43:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user5-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:43:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:43:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user7-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:43:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user6-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:43:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:45:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:45:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:45:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user7-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:45:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:45:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user6-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:45:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user5-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:45:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user1-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:45:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user3-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:45:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user7-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:45:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user6-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:45:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user5-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 14:45:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dist".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('dist')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('dist')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstkategori/dis...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstkategori/dist/img/user8-128x128.jpg
+HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
+---
+2022/06/25 15:16:55 [error] [php] Undefined index: new (D:\xampp\htdocs\sevima\sevima\protected\views\mstKategori\index.php:10)
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(869): MstKategoriController->renderFile()
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(782): MstKategoriController->renderPartial()
+#2 D:\xampp\htdocs\sevima\sevima\protected\controllers\MstKategoriController.php(28): MstKategoriController->render()
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\actions\CInlineAction.php(49): MstKategoriController->actionIndex()
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): MstKategoriController->runAction()
+#6 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): MstKategoriController->runActionWithFilters()
+#7 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): MstKategoriController->run()
+#8 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\sevima\sevima\index.php(13): CWebApplication->run()
+REQUEST_URI=/sevima/sevima/mstkategori/index
+in D:\xampp\htdocs\sevima\sevima\protected\views\mstKategori\index.php (10)
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\MstKategoriController.php (28)
+in D:\xampp\htdocs\sevima\sevima\index.php (13)
+2022/06/25 15:43:40 [error] [php] Undefined variable: model (D:\xampp\htdocs\sevima\sevima\protected\views\mstKategori\_input.php:37)
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(869): MstKategoriController->renderFile()
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(782): MstKategoriController->renderPartial()
+#2 D:\xampp\htdocs\sevima\sevima\protected\controllers\MstKategoriController.php(36): MstKategoriController->render()
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\actions\CInlineAction.php(49): MstKategoriController->actionNewData()
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): MstKategoriController->runAction()
+#6 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): MstKategoriController->runActionWithFilters()
+#7 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): MstKategoriController->run()
+#8 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\sevima\sevima\index.php(13): CWebApplication->run()
+REQUEST_URI=/sevima/sevima/mstkategori/NewData
+in D:\xampp\htdocs\sevima\sevima\protected\views\mstKategori\_input.php (37)
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\MstKategoriController.php (36)
+in D:\xampp\htdocs\sevima\sevima\index.php (13)

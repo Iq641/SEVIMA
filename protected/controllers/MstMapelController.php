@@ -118,10 +118,12 @@ class MstMapelController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('MstMapel');
-		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
-		));
+		$go['back'] 	 = Controller::createUrl('index')
+		$criteria   	 = new CDBCriteria();
+		$criteria->order = 'idkategori';
+		$data = MstKategori::model()->findAll($criteria)
+		
+		$this->render('index',array('data'=>$data,));
 	}
 
 	/**
@@ -129,11 +131,12 @@ class MstMapelController extends Controller
 	 */
 	public function actionAdmin()
 	{
+		print_r(1);die;
 		$model=new MstMapel('search');
 		$model->unsetAttributes();  // clear any default values
 		if(isset($_GET['MstMapel']))
 			$model->attributes=$_GET['MstMapel'];
-		print_r("test");die;
+
 		$this->render('admin',array(
 			'model'=>$model,
 		));

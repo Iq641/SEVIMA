@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Application of E-Learning</title>
+  <title>Application of eLearning</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -24,8 +24,8 @@
 
   <!-- Navbar -->
   <?php
-  //$topbar=new Topbar();
-  //echo $topbar->navigasi();
+	$topbar=new Topbar();
+	echo $topbar->navigasi();
   ?>
   <!-- /.navbar -->
 
@@ -35,33 +35,10 @@
   echo $sidebar->navigasi();
   ?>
 
-  <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <div class="content-header">
-      <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1 class="m-0">Dashboard v2</h1>
-          </div><!-- /.col -->
-          <div class="col-sm-6">
-            <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Dashboard v2</li>
-            </ol>
-          </div><!-- /.col -->
-        </div><!-- /.row -->
-      </div><!-- /.container-fluid -->
-    </div>
-    <!-- /.content-header -->
-
     <!-- Main content -->
     <?php
 		echo $content;
 	?>
-    <!-- /.content -->
-  </div>
-  <!-- /.content-wrapper -->
 
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">

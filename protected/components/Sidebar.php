@@ -4,9 +4,9 @@ class Sidebar{
 
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link">
+    <a href="site/index.php" class="brand-link">
       <img src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">A P E L</span>
+      <span class="brand-text font-weight-light"><b>A p <font style="color: yellow">e</font> L</b></span>
     </a>
 
     <!-- Sidebar -->
@@ -37,9 +37,9 @@ class Sidebar{
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="<?php echo Yii::app()->controller->createUrl('MstMapel/index'); ?>" class="nav-link">
+                    <a href="<?php echo Yii::app()->controller->createUrl('mstkategori/index'); ?>" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
-                      <p>Mapel</p>
+                      <p>Data Kategori</p>
                     </a>
                   </li>
                   <li class="nav-item">
