@@ -18,7 +18,7 @@
       <!-- Main row -->
       <div class="row">
         <!-- Left col -->
-        <section class="col-lg-6">
+        <section class="col-lg-8" style="margin: auto;">
           <div class="card">
 			<div class="card-header">
               <h3 class="card-title">Tambah/ Update User</h3>
@@ -48,27 +48,11 @@
 				</div>
 				<div class="form-group row">
 					<label class="col-sm-3 text-right">Status<sup style="color:red">*</sup></label>
-					<div class="col-sm-3">
-						<select id="aktif" class="form-control" value="<?php echo $model['aktif']; ?>">
+					<div class="col-sm-9">
+						<select id="aktif" value="<?php echo $model['aktif']; ?>">
 							<option value="0">Non Aktif</option>
 							<option value="1">Aktif</option>
 						</select>
-					</div>
-				</div>
-				<div class="form-group row">
-					<label class="col-sm-3 text-right">Status<sup style="color:red">*</sup></label>
-					<div class="col-sm-7">
-						<select id="idkategori" class="form-control" value="<?php echo $model['idkategori']; ?>" style="width:100%">
-						<?php
-							foreach($dft as $dt) {
-								echo '<option value="'. $dt['idkategori'] .'">'. $dt['nama'] .	
-									 '</option>';
-							}
-						?>
-						</select>
-					</div>
-					<div class="col-sm-2">
-						<button onclick="Pilih()" type="button" class="btn btn-sm btn-warning">PILIH</button>
 					</div>
 				</div>
 				<!-- END Form Input -->			
@@ -82,37 +66,6 @@
           </div>
           <!-- /.card -->
         </section>
-        <section class="col-lg-6">
-          <div class="card">
-            <div class="card-body">
-				<style>
-					table.dFix {width: 100%; font-size: 15px; white-space: nowrap;}
-					th,td {padding-left: 5px; padding-right: 5px;}
-					
-					.alignR {text-align: right;}
-					.alignC {text-align: center;}
-					.alignL {text-align: left;}
-					
-					.thcss {text-align: center; color: white; background: gray;}
-					.hvr   {color: white; background: red;}
-				</style>
-              <div>
-				<table id="TblData" class="dFix table-bordered table-hover">
-					<thead>
-						<tr>
-							<th class="thcss">No.</th>
-							<th class="thcss">Kode</th>							
-							<th class="thcss">Nama Kategori</th>							
-							<th class="thcss">Aksi</th>							
-						</tr>
-					</thead>
-					<tbody id="ListKat">
-					</tbody>
-				</table>			
-            </div>
-          </div>
-          <!-- /.card -->
-        </section>
       </div>
       <!-- /.row (main row) -->
     </div><!-- /.container-fluid -->
@@ -122,22 +75,6 @@
 <!-- /.content-wrapper -->
 
 <script type="text/javascript">
-	function Pilih() { 
-		var sel      = document.getElementById("idkategori");
-		var idkat    = $('#idkategori').val();	
-		var namakat  = sel.options[sel.selectedIndex].text;	
-		var linkdel  = "delKat('"+ idkat +"')";
-		var cHtml    = '<tr>';
-			cHtml	+= '	<td class="alignR">urut</td>';
-			cHtml	+= '	<td>'+ idkat +'</td>';
-			cHtml	+= '	<td>'+ namakat +'</td>';
-			cHtml	+= '	<td class="alignC"><a onclick="'+ linkdel +'" type="button" class="btn btn-xs btn-danger">';
-			cHtml	+= '		<i class="fa fa-times" aria-hidden="true"></i></a></td>';
-			cHtml	+= '</tr>';
-		
-		$('#ListKat').append(cHtml);
-	}
-	
 	function Simpan() {
 		var id    = $('#id').val();
 		var nama  = $('#nama').val(); 

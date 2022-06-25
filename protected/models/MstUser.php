@@ -9,6 +9,7 @@
  * @property string $nama
  * @property string $sandi
  * @property integer $aktif
+ * @property string $idkategori
  */
 class MstUser extends CActiveRecord
 {
@@ -32,9 +33,10 @@ class MstUser extends CActiveRecord
 			array('aktif', 'numerical', 'integerOnly'=>true),
 			array('iduser, sandi', 'length', 'max'=>25),
 			array('nama', 'length', 'max'=>30),
+			array('idkategori', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, iduser, nama, sandi, aktif', 'safe', 'on'=>'search'),
+			array('id, iduser, nama, sandi, aktif, idkategori', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -60,6 +62,7 @@ class MstUser extends CActiveRecord
 			'nama' => 'Nama',
 			'sandi' => 'Sandi',
 			'aktif' => 'Aktif',
+			'idkategori' => 'Idkategori',
 		);
 	}
 
@@ -86,6 +89,7 @@ class MstUser extends CActiveRecord
 		$criteria->compare('nama',$this->nama,true);
 		$criteria->compare('sandi',$this->sandi,true);
 		$criteria->compare('aktif',$this->aktif);
+		$criteria->compare('idkategori',$this->idkategori,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

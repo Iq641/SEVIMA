@@ -1,6 +1,6 @@
 <?php
 
-class MstuserController extends Controller
+class GantipasswordController extends Controller
 {
 	public function init()
     {
@@ -20,6 +20,7 @@ class MstuserController extends Controller
 	
 	public function actionIndex()
 	{
+		
 		$go['home']  = Controller::createUrl('site/index');
 		$go['back']  = Controller::createUrl('index');
 		$go['new'] 	 = Controller::createUrl('NewData');
@@ -29,28 +30,23 @@ class MstuserController extends Controller
 		$this->render('index',array('data'=>$data,'go'=>$go));
 	}	
 	
-	function GOInput($model) {
-		$go['back']  = Controller::createUrl('index');
-
-		$sql = 'select idkategori,nama from mst_kategori order by idkategori';
-		$dft = Yii::app()->db->createCommand($sql)->queryAll();
-		
-		$this->render('_input',array('model'=>$model,'go'=>$go, 'dft'=>$dft));
-	}
-	
 	public function actionNewData()
 	{
+		$go['back']  = Controller::createUrl('index');
 		$model		 = new MstUser;
 		$model->id	 = 0;
-		$this->GOInput($model);
+		
+		$this->render('_input',array('model'=>$model,'go'=>$go));
 	}
 
 	public function actionEditData()
 	{
+		$go['back']  = Controller::createUrl('index');
+		
 		$id          = $_GET['id'];
 		$model		 = MstUser::model()->findByPk($id);
 		
-		$this->GOInput($model);
+		$this->render('_input',array('model'=>$model,'go'=>$go));
 	}
 		
 	public function actionCheckInput()
