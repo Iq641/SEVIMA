@@ -24,7 +24,7 @@
     <div class="card-body">
       <p class="login-box-msg">Sign in to start your session</p>
 
-      <form action="site/index.php" method="post">
+      <form action="site/login.php" method="post">
         <div class="input-group mb-3">
           <input type="text" class="form-control" placeholder="Username" name="username">
           <div class="input-group-append">
@@ -84,5 +84,70 @@
 <script src="<?php echo Yii::app()->theme->baseUrl; ?>/../adminlte/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
 <script src="<?php echo Yii::app()->theme->baseUrl; ?>/../adminlte/assets/dist/js/adminlte.min.js"></script>
+
+	<script>
+		$(function(){ 
+			$(document).ready(function() {
+				window.history.pushState(null, "", window.location.href);        
+				window.onpopstate = function() {
+					window.history.pushState(null, "", window.location.href);
+				};
+				
+				$('#username').keyup(function(){this.value = this.value.toUpperCase();});
+				document.getElementById("username").focus();
+			});
+				
+			$('#loader').hide();
+			
+			$('#login').click(function() {				
+				$('#formlogin').submit();
+			});
+			
+			$('#username,#password').keydown(function(e) {
+				if (e.keyCode === 13) {
+					$('#formlogin').submit();
+				}
+			});
+			
+			$('#formlogin').submit(function() {				
+				$('#password').focus(); 
+				if ($('#username').val() === '') {
+					swal("Warning!", "Input Username", "warning");
+					return false;
+				}
+				if ($('#password').val() === '') { 
+					swal("Warning!", "Input Password", "warning");
+					return false;
+				}
+				
+				$.ajax({
+					url: $(this).attr('action'),
+					data: $(this).serialize(),
+					dataType: 'json',
+					type: 'POST',
+					cache: false,
+					beforeSend: function() {
+						document.getElementById("login").disabled = true;
+						$('#loader').show();
+					},
+					success: function(data) { 
+						console.log("dosis3a_login: "+ data.login); 
+						console.log("dosis3a_login_msg: "+ data.msg);
+						//console.log("dosis3a_update_password: "+ data.dosis3a_update_password);
+						if (data.login==1) { 
+								window.location = "<?php echo Yii::app()->getBaseUrl(true); ?>";
+						} else {
+							alert("Warning!", data.msg, "warning");
+							window.location = "<?php echo Yii::app()->getBaseUrl(true); ?>";
+							//$('#loader').hide();
+							//document.getElementById("login").disabled = false;
+						}
+					}
+					
+				});
+				return false;
+			});
+		});
+	</script>
 </body>
 </html>

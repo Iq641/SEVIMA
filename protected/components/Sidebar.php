@@ -1,6 +1,7 @@
 <?php
 class Sidebar{
-	public function navigasi(){ ?>
+	public function navigasi(){ 
+?>
 
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
@@ -71,6 +72,12 @@ class Sidebar{
                 <a href="<?php echo Yii::app()->theme->baseUrl; ?>/assets/pages/examples/lockscreen.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Ganti Password</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="<?php echo Yii::app()->controller->createUrl('datatest/index'); ?>" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Test Soal</p>
                 </a>
               </li>
             </ul>

@@ -42,6 +42,7 @@ class MstuserController extends Controller
 	{
 		$model		 = new MstUser;
 		$model->id	 = 0;
+		
 		$this->GOInput($model);
 	}
 
@@ -80,8 +81,9 @@ class MstuserController extends Controller
 			$model->sandi  = crypt('123456','apel'); 
 		}
 
-		$model->nama  = $data['nama'];
-		$model->aktif = $data['aktif'];
+		$model->nama  	   = $data['nama'];
+		$model->aktif 	   = $data['aktif'];
+		$model->idkategori = $data['idkategori'];
 		$ok  = $model->save(false);
 		$msg = 'Simpan Data User<br>'. $model->iduser .' '. $model->nama;
 		if ($ok) { $msg .= ', SUKSES'; 

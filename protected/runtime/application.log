@@ -21048,3 +21048,491 @@ Stack trace:
 REQUEST_URI=/sevima/sevima/themes/adminlte/assets/pages/examples/lockscreen.html
 HTTP_REFERER=http://localhost/sevima/sevima/mstuser/index
 ---
+2022/06/25 21:42:12 [error] [php] Illegal string offset 'idkategori' (D:\xampp\htdocs\sevima\sevima\protected\views\mstuser\_input.php:126)
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(869): MstuserController->renderFile()
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(782): MstuserController->renderPartial()
+#2 D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php(38): MstuserController->render()
+#3 D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php(54): MstuserController->GOInput()
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\actions\CInlineAction.php(49): MstuserController->actionEditData()
+#5 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): MstuserController->runAction()
+#7 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): MstuserController->runActionWithFilters()
+#8 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): MstuserController->run()
+#9 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\sevima\sevima\index.php(13): CWebApplication->run()
+REQUEST_URI=/sevima/sevima/mstuser/EditData/2
+in D:\xampp\htdocs\sevima\sevima\protected\views\mstuser\_input.php (126)
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php (38)
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php (54)
+2022/06/25 21:46:29 [error] [php] Illegal string offset 'idkategori' (D:\xampp\htdocs\sevima\sevima\protected\views\mstuser\_input.php:126)
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(869): MstuserController->renderFile()
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(782): MstuserController->renderPartial()
+#2 D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php(38): MstuserController->render()
+#3 D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php(54): MstuserController->GOInput()
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\actions\CInlineAction.php(49): MstuserController->actionEditData()
+#5 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): MstuserController->runAction()
+#7 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): MstuserController->runActionWithFilters()
+#8 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): MstuserController->run()
+#9 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\sevima\sevima\index.php(13): CWebApplication->run()
+REQUEST_URI=/sevima/sevima/mstuser/EditData/2
+in D:\xampp\htdocs\sevima\sevima\protected\views\mstuser\_input.php (126)
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php (38)
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php (54)
+2022/06/25 21:46:42 [error] [php] Illegal string offset 'id' (D:\xampp\htdocs\sevima\sevima\protected\views\mstuser\_input.php:126)
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(869): MstuserController->renderFile()
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(782): MstuserController->renderPartial()
+#2 D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php(38): MstuserController->render()
+#3 D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php(54): MstuserController->GOInput()
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\actions\CInlineAction.php(49): MstuserController->actionEditData()
+#5 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): MstuserController->runAction()
+#7 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): MstuserController->runActionWithFilters()
+#8 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): MstuserController->run()
+#9 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\sevima\sevima\index.php(13): CWebApplication->run()
+REQUEST_URI=/sevima/sevima/mstuser/EditData/2
+in D:\xampp\htdocs\sevima\sevima\protected\views\mstuser\_input.php (126)
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php (38)
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php (54)
+2022/06/25 21:55:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/app/js/datatables/jquery.dataTables.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/app/js/datatables/jquery.dataTables.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/mstuser/index
+---
+2022/06/25 21:55:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets//app/js/vendor/jquery.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets//app/js/vendor/jquery.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/mstuser/index
+---
+2022/06/25 21:55:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/app/css/sweetalert.css".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/app/css/sweetalert.css
+HTTP_REFERER=http://localhost/sevima/sevima/mstuser/index
+---
+2022/06/25 21:55:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/sweetalert.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/js/sweetalert.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/mstuser/index
+---
+2022/06/25 21:55:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/app/js/datatables/jquery.dataTables.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/app/js/datatables/jquery.dataTables.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/mstuser/index
+---
+2022/06/25 21:55:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/sweetalert.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/js/sweetalert.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/mstuser/index
+---
+2022/06/25 21:55:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/app/css/sweetalert.css".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/app/css/sweetalert.css
+HTTP_REFERER=http://localhost/sevima/sevima/mstuser/EditData/2
+---
+2022/06/25 21:55:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/app/js/datatables/jquery.dataTables.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/app/js/datatables/jquery.dataTables.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/mstuser/EditData/2
+---
+2022/06/25 21:55:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets//app/js/vendor/jquery.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets//app/js/vendor/jquery.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/mstuser/EditData/2
+---
+2022/06/25 21:55:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/sweetalert.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/js/sweetalert.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/mstuser/EditData/2
+---
+2022/06/25 21:55:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/app/js/datatables/jquery.dataTables.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/app/js/datatables/jquery.dataTables.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/mstuser/EditData/2
+---
+2022/06/25 21:55:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/sweetalert.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/js/sweetalert.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/mstuser/EditData/2
+---
+2022/06/25 21:57:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/app/css/sweetalert.css".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/app/css/sweetalert.css
+HTTP_REFERER=http://localhost/sevima/sevima/mstuser/EditData/2
+---
+2022/06/25 21:57:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/app/js/datatables/jquery.dataTables.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/app/js/datatables/jquery.dataTables.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/mstuser/EditData/2
+---
+2022/06/25 21:57:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/sweetalert2.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/js/sweetalert2.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/mstuser/EditData/2
+---
+2022/06/25 21:57:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets//app/js/vendor/jquery.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets//app/js/vendor/jquery.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/mstuser/EditData/2
+---
+2022/06/25 21:57:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/app/js/datatables/jquery.dataTables.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/app/js/datatables/jquery.dataTables.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/mstuser/EditData/2
+---
+2022/06/25 21:57:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/sweetalert2.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/js/sweetalert2.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/mstuser/EditData/2
+---
+2022/06/25 22:11:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "login".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('login')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/login
+---
+2022/06/25 22:11:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/app/css/sweetalert.css".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/app/css/sweetalert.css
+HTTP_REFERER=http://localhost/sevima/sevima/login
+---
+2022/06/25 22:11:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/app/js/datatables/jquery.dataTables.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/app/js/datatables/jquery.dataTables.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/login
+---
+2022/06/25 22:11:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets//app/js/vendor/jquery.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets//app/js/vendor/jquery.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/login
+---
+2022/06/25 22:11:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/sweetalert2.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/js/sweetalert2.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/login
+---
+2022/06/25 22:11:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/app/js/datatables/jquery.dataTables.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/app/js/datatables/jquery.dataTables.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/login
+---
+2022/06/25 22:11:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/sweetalert2.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/js/sweetalert2.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/login
+---
+2022/06/25 22:11:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/app/css/sweetalert.css".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/app/css/sweetalert.css
+HTTP_REFERER=http://localhost/sevima/sevima/
+---
+2022/06/25 22:11:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/app/js/datatables/jquery.dataTables.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/app/js/datatables/jquery.dataTables.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/
+---
+2022/06/25 22:11:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets//app/js/vendor/jquery.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets//app/js/vendor/jquery.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/
+---
+2022/06/25 22:11:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/sweetalert2.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/js/sweetalert2.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/
+---
+2022/06/25 22:11:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/app/js/datatables/jquery.dataTables.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/app/js/datatables/jquery.dataTables.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/
+---
+2022/06/25 22:11:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/sweetalert2.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/js/sweetalert2.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/
+---
+2022/06/25 22:13:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login.php".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('login.php')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('login.php')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login.php')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/site/login.php
+HTTP_REFERER=http://localhost/sevima/sevima/
+---
+2022/06/25 22:14:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('site')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('site')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('site/site/login...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/site/site/login.php
+HTTP_REFERER=http://localhost/sevima/sevima/site/login.php
+---
+2022/06/25 22:21:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/app/css/sweetalert.css".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/app/css/sweetalert.css
+HTTP_REFERER=http://localhost/sevima/sevima/
+---
+2022/06/25 22:21:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets//app/js/vendor/jquery.min.js".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets//app/js/vendor/jquery.min.js
+HTTP_REFERER=http://localhost/sevima/sevima/
+---
+2022/06/25 22:22:50 [error] [php] Undefined variable: dt (D:\xampp\htdocs\sevima\sevima\protected\components\Sidebar.php:11)
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CBaseController.php(214): CContentDecorator->run()
+#5 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CBaseController.php(308): SiteController->endWidget()
+#6 D:\xampp\htdocs\sevima\sevima\protected\views\layouts\column1.php(6): SiteController->endContent()
+#7 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CBaseController.php(126): require()
+#8 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#9 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(784): SiteController->renderFile()
+#10 D:\xampp\htdocs\sevima\sevima\protected\controllers\SiteController.php(48): SiteController->render()
+#11 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): SiteController->runAction()
+#14 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): SiteController->run()
+#16 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 D:\xampp\htdocs\sevima\sevima\index.php(13): CWebApplication->run()
+REQUEST_URI=/sevima/sevima/
+in D:\xampp\htdocs\sevima\sevima\protected\components\Sidebar.php (11)
+in D:\xampp\htdocs\sevima\sevima\themes\adminlte\views\layouts\main.php (35)
+in D:\xampp\htdocs\sevima\sevima\protected\views\layouts\column1.php (6)
+2022/06/25 22:30:51 [error] [php] Undefined index: new (D:\xampp\htdocs\sevima\sevima\protected\views\datatest\index.php:25)
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(869): DatatestController->renderFile()
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(782): DatatestController->renderPartial()
+#2 D:\xampp\htdocs\sevima\sevima\protected\controllers\DatatestController.php(18): DatatestController->render()
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\actions\CInlineAction.php(49): DatatestController->actionIndex()
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): DatatestController->runAction()
+#6 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): DatatestController->runActionWithFilters()
+#7 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): DatatestController->run()
+#8 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\sevima\sevima\index.php(13): CWebApplication->run()
+REQUEST_URI=/sevima/sevima/datatest/index
+in D:\xampp\htdocs\sevima\sevima\protected\views\datatest\index.php (25)
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\DatatestController.php (18)
+in D:\xampp\htdocs\sevima\sevima\index.php (13)
+2022/06/25 22:31:13 [error] [php] Undefined index: back (D:\xampp\htdocs\sevima\sevima\protected\views\datatest\index.php:110)
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(869): DatatestController->renderFile()
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(782): DatatestController->renderPartial()
+#2 D:\xampp\htdocs\sevima\sevima\protected\controllers\DatatestController.php(18): DatatestController->render()
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\actions\CInlineAction.php(49): DatatestController->actionIndex()
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): DatatestController->runAction()
+#6 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): DatatestController->runActionWithFilters()
+#7 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): DatatestController->run()
+#8 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\sevima\sevima\index.php(13): CWebApplication->run()
+REQUEST_URI=/sevima/sevima/datatest/index
+in D:\xampp\htdocs\sevima\sevima\protected\views\datatest\index.php (110)
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\DatatestController.php (18)
+in D:\xampp\htdocs\sevima\sevima\index.php (13)
+2022/06/25 22:36:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editdata".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('editdata')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('editdata')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('datatest/EditDa...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/datatest/EditData/1
+HTTP_REFERER=http://localhost/sevima/sevima/datatest/index
+---
+2022/06/25 22:49:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "editdata".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('editdata')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('editdata')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('datatest/EditDa...')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/datatest/EditData/1
+HTTP_REFERER=http://localhost/sevima/sevima/datatest/index
+---
+2022/06/25 22:51:24 [error] [php] Use of undefined constant soal - assumed 'soal' (D:\xampp\htdocs\sevima\sevima\protected\controllers\DatatestController.php:49)
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): DatatestController->runAction()
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): DatatestController->runActionWithFilters()
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): DatatestController->run()
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\sevima\sevima\index.php(13): CWebApplication->run()
+REQUEST_URI=/sevima/sevima/datatest/TestSoal/1
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\DatatestController.php (49)
+in D:\xampp\htdocs\sevima\sevima\index.php (13)
+2022/06/25 23:02:26 [error] [php] Undefined variable: no (D:\xampp\htdocs\sevima\sevima\protected\controllers\DatatestController.php:49)
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): DatatestController->runAction()
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): DatatestController->runActionWithFilters()
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): DatatestController->run()
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\sevima\sevima\index.php(13): CWebApplication->run()
+REQUEST_URI=/sevima/sevima/datatest/TestSoal/1
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\DatatestController.php (49)
+in D:\xampp\htdocs\sevima\sevima\index.php (13)
+2022/06/25 23:02:42 [error] [php] Undefined variable: arr (D:\xampp\htdocs\sevima\sevima\protected\components\Tool.php:8)
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): DatatestController->runAction()
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): DatatestController->runActionWithFilters()
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): DatatestController->run()
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\xampp\htdocs\sevima\sevima\index.php(13): CWebApplication->run()
+REQUEST_URI=/sevima/sevima/datatest/TestSoal/1
+in D:\xampp\htdocs\sevima\sevima\protected\components\Tool.php (8)
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\DatatestController.php (49)
+in D:\xampp\htdocs\sevima\sevima\index.php (13)

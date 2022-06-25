@@ -5,16 +5,18 @@ class SiteController extends Controller
 	public function init()
     {
         //if (isset($_SESSION['user'])) {
-
-       // } else {
-           // Yii::app()->user->isGuest;
-        //}
-
-        //if (Yii::app()->user->isGuest) {
-            //Yii::app()->theme = 'login';
+		//
         //} else {
-			Yii::app()->theme = 'adminlte';
+        //    Yii::app()->user->isGuest;
         //}
+		//
+        //if (Yii::app()->user->isGuest) {
+        //    Yii::app()->theme = 'login';
+        //} else {
+		//	Yii::app()->theme = 'adminlte';
+        //}
+		Yii::app()->session->add('apel_iduser', 'APEL000002');
+		Yii::app()->theme = 'adminlte';
         parent::init();
     } 
 	

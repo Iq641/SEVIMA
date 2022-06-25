@@ -16,32 +16,25 @@ class UserIdentity extends CUserIdentity
 	 * @return boolean whether authentication succeeds.
 	 */
 	public function authenticate() {
-        $user = MstUser::model()->find('username=?', array($this->username));	
+        $iduser = $this->username;
+		$pass   = array($this->password);
+		$passC  = crypt($pass,'apel');
 		
+        $user = MstUser::model()->find('username="'. $iduser .'"');
+		if($	user!=null) { $crypt = $user->sandi; }
+			
+		$_SESSION['login'] = 0;	
+		$_SESSION['msg']   = '';	
         if ($user === null) {
-			$_SESSION['login'] = NULL;			
-			die(json_encode($_SESSION));
-            $this->errorCode = self::ERROR_USERNAME_INVALID;
-			
-        } else if (!$user->validatePassword($this->password)) {
-			$_SESSION['login'] = $this->password; 
-			die(json_encode($_SESSION));
-            $this->errorCode = self::ERROR_PASSWORD_INVALID;			
+			$_SESSION['msg']   = 'UserID Salah';
+        } else if ($passC!=$crypt) {
+			$_SESSION['msg']   = 'Password Salah';			
         } else {
+			$_SESSION['login'] = 1;
+			Yii::app()->session->add('apel_iduser', $iduser);
 			
-			$profil = MstProfil::model()->findByAttributes(array('user_id' => $user->id));
-			
-            if (empty($profil)) {
-                $this->errorCode = self::ERROR_USERNAME_INVALID;
-				echo $this->username; die();
-            } else {	
-                Yii::app()->session->add('apel_iduser', $profil->iduser);
-				
-				Yii::app()->db->createCommand("update tbl_mst_user set `status`=2 where id='".$user->id."' ")->execute();
-				
-            }
-            $this->errorCode = self::ERROR_NONE;
         }
-        return !$this->errorCode;
+		
+        return $_SESSION;
     }
 }

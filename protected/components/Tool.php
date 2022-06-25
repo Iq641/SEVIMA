@@ -1,5 +1,17 @@
 <?php
 class Tool{
+	public static function RandomNumber($jml){ 
+		$random_numbers = [];
+		while(count($random_numbers) <= $jml){
+			do  {
+				$random_number = rand(1, $jml);    
+			} while (in_array($random_number, $random_numbers));
+			$random_numbers[] = $random_number;
+		}
+		
+		return $random_numbers;
+	}
+	
 	public static function GETNumber($kode){ 
 		$kode = strtoupper($kode);
 		if ($kode=='KATEGORI') {
