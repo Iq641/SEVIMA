@@ -1,6 +1,6 @@
 <?php
 
-class MstkategoriController extends Controller
+class MstuserController extends Controller
 {
 	public function init()
     {
@@ -23,16 +23,16 @@ class MstkategoriController extends Controller
 		$go['home']  = Controller::createUrl('site/index');
 		$go['back']  = Controller::createUrl('index');
 		$go['new'] 	 = Controller::createUrl('NewData');
-		$sql  = 'select * from mst_kategori order by idkategori';
+		$sql  = 'select * from mst_user where iduser<>"APEL000000" order by iduser';
 		$data = Yii::app()->db->createCommand($sql)->queryAll();
-		
+
 		$this->render('index',array('data'=>$data,'go'=>$go));
 	}	
 	
 	public function actionNewData()
 	{
 		$go['back']  = Controller::createUrl('index');
-		$model		 = new MstKategori;
+		$model		 = new MstUser;
 		$model->id	 = 0;
 		
 		$this->render('_input',array('model'=>$model,'go'=>$go));
@@ -43,7 +43,7 @@ class MstkategoriController extends Controller
 		$go['back']  = Controller::createUrl('index');
 		
 		$id          = $_GET['id'];
-		$model		 = MstKategori::model()->findByPk($id);
+		$model		 = MstUser::model()->findByPk($id);
 		
 		$this->render('_input',array('model'=>$model,'go'=>$go));
 	}
@@ -53,16 +53,7 @@ class MstkategoriController extends Controller
 		$ok = 0;
 		$aksi = $_POST['aksi'];		
 		if ($aksi=='del') {
-		} else {
-			$data = $_POST['data'];
-			$data = json_decode($data,true); 
-			$id   = $data['id'];
-			$nama = $data['nama'];
-			
-			$sql  = 'id<>'. $id .' and nama="'. $nama .'"';
-			$cek  = MstKategori::model()->find($sql);
-			if ($cek!=null) { $ok = 1; }
-		}
+		} 
 		
 		echo $ok;
 	}	
@@ -72,20 +63,22 @@ class MstkategoriController extends Controller
 		$data = json_decode($_POST['data'],true); 
 		$id   = $data['id'];
 		
-		$model = MstKategori::model()->findByPk($id);
+		$model = MstUser::model()->findByPk($id);
 		if($model==null) {			
 			do {
-				$no  = Tool::GETNumber('KATEGORI');
-				$cek = MstKategori::model()->find('idkategori="'. $no .'"');				
+				$no  = Tool::GETNumber('USER');
+				$cek = MstUser::model()->find('iduser="'. $no .'"');				
 			} while ($cek!=null);
-			
-			$model = new MstKategori;
-			$model->idkategori = $no;
+
+			$model = new MstUser;
+			$model->iduser = $no;
+			$model->sandi  = crypt('123456','apel'); 
 		}
 
-		$model->nama = $data['nama'];
+		$model->nama  = $data['nama'];
+		$model->aktif = $data['aktif'];
 		$ok  = $model->save(false);
-		$msg = 'Simpan Data Kategori<br>'. $model->idkategori .' '. $model->nama;
+		$msg = 'Simpan Data User<br>'. $model->iduser .' '. $model->nama;
 		if ($ok) { $msg .= ', SUKSES'; 
 		} else {   $msg .= ', GAGAL'; }
 		
@@ -95,9 +88,22 @@ class MstkategoriController extends Controller
 	public function actionHapusData()
 	{
 		$id    = $_POST['id'];
-		$model = MstKategori::model()->findByPk($id);
-		$msg   = 'Hapus Data Kategori<br>'. $model->idkategori .' '. $model->nama;
+		$model = MstUser::model()->findByPk($id);
+		$msg   = 'Hapus Data User<br>'. $model->iduser .' '. $model->nama;
 		$ok	   = $model->delete();
+		if ($ok) { $msg .= ', SUKSES'; 
+		} else {   $msg .= ', GAGAL'; }
+		
+		echo $msg;
+	}
+
+	public function actionResetPassword()
+	{
+		$id    = $_POST['id'];
+		$model = MstUser::model()->findByPk($id);
+		$msg   = 'Reset Password User<br>'. $model->iduser .' '. $model->nama;
+		$model->sandi = crypt('123456','apel');
+		$ok	   = $model->save(false);
 		if ($ok) { $msg .= ', SUKSES'; 
 		} else {   $msg .= ', GAGAL'; }
 		

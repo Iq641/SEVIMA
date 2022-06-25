@@ -20801,3 +20801,250 @@ Stack trace:
 REQUEST_URI=/sevima/sevima/mstkategori/HapusData
 HTTP_REFERER=http://localhost/sevima/sevima/mstkategori/index
 ---
+2022/06/25 18:08:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "newdata".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(270): CController->missingAction('newdata')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('newdata')
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstsoal/NewData')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sevima/sevima/mstsoal/NewData
+HTTP_REFERER=http://localhost/sevima/sevima/mstsoal/index
+---
+2022/06/25 18:09:31 [error] [exception.CException] exception 'CException' with message 'MstsoalController cannot find the requested view "_input".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php:878
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(782): CController->renderPartial('_input', Array, true)
+#1 D:\xampp\htdocs\sevima\sevima\protected\controllers\MstsoalController.php(36): CController->render('_input', Array)
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\actions\CInlineAction.php(49): MstsoalController->actionNewData()
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('newdata')
+#7 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstsoal/NewData')
+#8 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/sevima/sevima/mstsoal/NewData
+HTTP_REFERER=http://localhost/sevima/sevima/mstsoal/index
+---
+2022/06/25 18:18:11 [error] [exception.CException] exception 'CException' with message 'Property "MstKategori.no_soal" is not defined.' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\db\ar\CActiveRecord.php(145): CComponent->__get('no_soal')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CModel.php(596): CActiveRecord->__get('no_soal')
+#2 D:\xampp\htdocs\sevima\sevima\protected\views\mstsoal\_input.php(38): CModel->offsetGet('no_soal')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CBaseController.php(126): require('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#5 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(869): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#6 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(782): CController->renderPartial('_input', Array, true)
+#7 D:\xampp\htdocs\sevima\sevima\protected\controllers\MstsoalController.php(36): CController->render('_input', Array)
+#8 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\actions\CInlineAction.php(49): MstsoalController->actionNewData()
+#9 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('newdata')
+#13 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstsoal/NewData')
+#14 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/sevima/sevima/mstsoal/NewData
+HTTP_REFERER=http://localhost/sevima/sevima/mstsoal/index
+---
+2022/06/25 18:19:02 [error] [php] include(MstSoal.php): failed to open stream: No such file or directory (D:\xampp\htdocs\sevima\sevima\yii-core\framework\YiiBase.php:432)
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\protected\controllers\MstsoalController.php(33): spl_autoload_call()
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\actions\CInlineAction.php(49): MstsoalController->actionNewData()
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): MstsoalController->runAction()
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): MstsoalController->runActionWithFilters()
+#5 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): MstsoalController->run()
+#6 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\sevima\sevima\index.php(13): CWebApplication->run()
+REQUEST_URI=/sevima/sevima/mstsoal/NewData
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\MstsoalController.php (33)
+in D:\xampp\htdocs\sevima\sevima\index.php (13)
+2022/06/25 18:45:39 [error] [php] Undefined index: back (D:\xampp\htdocs\sevima\sevima\protected\views\mstsoal\index.php:107)
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(869): MstsoalController->renderFile()
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(782): MstsoalController->renderPartial()
+#2 D:\xampp\htdocs\sevima\sevima\protected\controllers\MstsoalController.php(26): MstsoalController->render()
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\actions\CInlineAction.php(49): MstsoalController->actionIndex()
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): MstsoalController->runAction()
+#6 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): MstsoalController->runActionWithFilters()
+#7 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): MstsoalController->run()
+#8 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\sevima\sevima\index.php(13): CWebApplication->run()
+REQUEST_URI=/sevima/sevima/mstsoal/index
+in D:\xampp\htdocs\sevima\sevima\protected\views\mstsoal\index.php (107)
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\MstsoalController.php (26)
+in D:\xampp\htdocs\sevima\sevima\index.php (13)
+2022/06/25 18:51:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '"KAT00001 order by no_soal' at line 1. The SQL statement executed was: select * from mst_soal where idkategori="KAT00001 order by no_soal.
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\MstsoalController.php (39)
+in D:\xampp\htdocs\sevima\sevima\index.php (13)
+2022/06/25 18:51:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '"KAT00001 order by no_soal' at line 1. The SQL statement executed was: select * from mst_soal where idkategori="KAT00001 order by no_soal' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\xampp\htdocs\sevima\sevima\protected\controllers\MstsoalController.php(39): CDbCommand->queryAll()
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\actions\CInlineAction.php(49): MstsoalController->actionListSoal()
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('listsoal')
+#7 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstsoal/ListSoa...')
+#8 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/sevima/sevima/mstsoal/ListSoal?idkategori=KAT00001
+HTTP_REFERER=http://localhost/sevima/sevima/mstsoal/index
+---
+2022/06/25 19:02:47 [error] [php] Undefined variable: kategori (D:\xampp\htdocs\sevima\sevima\protected\views\mstsoal\_input.php:24)
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(869): MstsoalController->renderFile()
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(782): MstsoalController->renderPartial()
+#2 D:\xampp\htdocs\sevima\sevima\protected\controllers\MstsoalController.php(51): MstsoalController->render()
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\actions\CInlineAction.php(49): MstsoalController->actionNewData()
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): MstsoalController->runAction()
+#6 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): MstsoalController->runActionWithFilters()
+#7 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): MstsoalController->run()
+#8 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\sevima\sevima\index.php(13): CWebApplication->run()
+REQUEST_URI=/sevima/sevima/mstsoal/NewData?kategori%5Bid%5D=KAT00001&kategori%5Bnama%5D=Bahasa+Indonesia+SMP+Kelas+1
+in D:\xampp\htdocs\sevima\sevima\protected\views\mstsoal\_input.php (24)
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\MstsoalController.php (51)
+in D:\xampp\htdocs\sevima\sevima\index.php (13)
+2022/06/25 19:23:43 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'no_soal' in 'where clause'. The SQL statement executed was: SELECT * FROM `mst_kategori` `t` WHERE id<>0 and idkategori="0" and no_soal=1 LIMIT 1.
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\MstsoalController.php (71)
+in D:\xampp\htdocs\sevima\sevima\index.php (13)
+2022/06/25 19:23:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'no_soal' in 'where clause'. The SQL statement executed was: SELECT * FROM `mst_kategori` `t` WHERE id<>0 and idkategori="0" and no_soal=1 LIMIT 1' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryRow()
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\db\ar\CActiveRecord.php(1461): CActiveRecord->query(Object(CDbCriteria))
+#3 D:\xampp\htdocs\sevima\sevima\protected\controllers\MstsoalController.php(71): CActiveRecord->find('id<>0 and idkat...')
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\actions\CInlineAction.php(49): MstsoalController->actionCheckInput()
+#5 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('checkinput')
+#9 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstsoal/CheckIn...')
+#10 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/sevima/sevima/mstsoal/CheckInput
+HTTP_REFERER=http://localhost/sevima/sevima/mstsoal/NewData?kategori%5Bid%5D=KAT00001&kategori%5Bnama%5D=Bahasa+Indonesia+SMP+Kelas+1
+---
+2022/06/25 19:42:36 [error] [exception.CException] exception 'CException' with message 'Property "MstUser.idkategori" is not defined.' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\db\ar\CActiveRecord.php(145): CComponent->__get('idkategori')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CModel.php(596): CActiveRecord->__get('idkategori')
+#2 D:\xampp\htdocs\sevima\sevima\protected\views\mstuser\_input.php(38): CModel->offsetGet('idkategori')
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CBaseController.php(126): require('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#5 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(869): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#6 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(782): CController->renderPartial('_input', Array, true)
+#7 D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php(38): CController->render('_input', Array)
+#8 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\actions\CInlineAction.php(49): MstuserController->actionNewData()
+#9 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): CController->run('newdata')
+#13 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('mstuser/NewData')
+#14 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/sevima/sevima/mstuser/NewData
+HTTP_REFERER=http://localhost/sevima/sevima/mstuser/index
+---
+2022/06/25 19:48:12 [error] [php] Undefined index: iduser (D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php:78)
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): MstuserController->runAction()
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): MstuserController->runActionWithFilters()
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): MstuserController->run()
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\sevima\sevima\index.php(13): CWebApplication->run()
+REQUEST_URI=/sevima/sevima/mstuser/SimpanData
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php (78)
+in D:\xampp\htdocs\sevima\sevima\index.php (13)
+2022/06/25 19:48:27 [error] [php] Undefined index: iduser (D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php:78)
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): MstuserController->runAction()
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): MstuserController->runActionWithFilters()
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): MstuserController->run()
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\sevima\sevima\index.php(13): CWebApplication->run()
+REQUEST_URI=/sevima/sevima/mstuser/SimpanData
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php (78)
+in D:\xampp\htdocs\sevima\sevima\index.php (13)
+2022/06/25 19:48:32 [error] [php] Undefined index: iduser (D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php:78)
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): MstuserController->runAction()
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): MstuserController->runActionWithFilters()
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): MstuserController->run()
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\sevima\sevima\index.php(13): CWebApplication->run()
+REQUEST_URI=/sevima/sevima/mstuser/SimpanData
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php (78)
+in D:\xampp\htdocs\sevima\sevima\index.php (13)
+2022/06/25 19:53:33 [error] [php] Use of undefined constant data - assumed 'data' (D:\xampp\htdocs\sevima\sevima\protected\views\mstuser\index.php:73)
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(869): MstuserController->renderFile()
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(782): MstuserController->renderPartial()
+#2 D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php(29): MstuserController->render()
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\actions\CInlineAction.php(49): MstuserController->actionIndex()
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): MstuserController->runAction()
+#6 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): MstuserController->runActionWithFilters()
+#7 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): MstuserController->run()
+#8 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\sevima\sevima\index.php(13): CWebApplication->run()
+REQUEST_URI=/sevima/sevima/mstuser/index
+in D:\xampp\htdocs\sevima\sevima\protected\views\mstuser\index.php (73)
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php (29)
+in D:\xampp\htdocs\sevima\sevima\index.php (13)
+2022/06/25 19:55:34 [error] [php] Use of undefined constant data - assumed 'data' (D:\xampp\htdocs\sevima\sevima\protected\views\mstuser\index.php:73)
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(869): MstuserController->renderFile()
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(782): MstuserController->renderPartial()
+#2 D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php(29): MstuserController->render()
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\actions\CInlineAction.php(49): MstuserController->actionIndex()
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): MstuserController->runAction()
+#6 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): MstuserController->runActionWithFilters()
+#7 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): MstuserController->run()
+#8 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\sevima\sevima\index.php(13): CWebApplication->run()
+REQUEST_URI=/sevima/sevima/mstuser/index
+in D:\xampp\htdocs\sevima\sevima\protected\views\mstuser\index.php (73)
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php (29)
+in D:\xampp\htdocs\sevima\sevima\index.php (13)
+2022/06/25 20:00:57 [error] [php] crypt(): No salt parameter was specified. You must use a randomly generated salt and a strong hash function to produce a secure hash. (D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php:28)
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(286): MstuserController->runAction()
+#2 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CController.php(265): MstuserController->runActionWithFilters()
+#3 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(282): MstuserController->run()
+#4 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\xampp\htdocs\sevima\sevima\index.php(13): CWebApplication->run()
+REQUEST_URI=/sevima/sevima/mstuser/index
+in D:\xampp\htdocs\sevima\sevima\protected\controllers\MstuserController.php (28)
+in D:\xampp\htdocs\sevima\sevima\index.php (13)
+2022/06/25 20:15:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/pages/examples/lockscreen.html".' in D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\sevima\sevima\yii-core\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/adminlte...')
+#1 D:\xampp\htdocs\sevima\sevima\yii-core\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\sevima\sevima\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sevima/sevima/themes/adminlte/assets/pages/examples/lockscreen.html
+HTTP_REFERER=http://localhost/sevima/sevima/mstuser/index
+---

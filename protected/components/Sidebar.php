@@ -20,7 +20,7 @@ class Sidebar{
                with font-awesome or any other icon font library -->
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="nav-icon far fa-plus-square"></i>
+              <i class="nav-icon fa fa-lock"></i>
               <p>
                 Administrator
                 <i class="fas fa-angle-left right"></i>
@@ -29,7 +29,7 @@ class Sidebar{
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
+                  <i class="fa fa-arrow-down nav-icon"></i>
                   <p>
                     Master
                     <i class="fas fa-angle-left right"></i>
@@ -43,71 +43,24 @@ class Sidebar{
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="<?php echo Yii::app()->theme->baseUrl; ?>/assets/pages/examples/register.html" class="nav-link">
+                    <a href="<?php echo Yii::app()->controller->createUrl('mstsoal/index'); ?>" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
-                      <p>Register v1</p>
+                      <p>Data Soal</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="<?php echo Yii::app()->theme->baseUrl; ?>/assets/pages/examples/forgot-password.html" class="nav-link">
+                    <a href="<?php echo Yii::app()->controller->createUrl('mstuser/index'); ?>" class="nav-link">
                       <i class="far fa-circle nav-icon"></i>
-                      <p>Forgot Password v1</p>
+                      <p>Data User</p>
                     </a>
                   </li>
-                  <li class="nav-item">
-                    <a href="<?php echo Yii::app()->theme->baseUrl; ?>/assets/pages/examples/recover-password.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Recover Password v1</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>
-                    Login & Register v2
-                    <i class="fas fa-angle-left right"></i>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="<?php echo Yii::app()->theme->baseUrl; ?>/assets/pages/examples/login-v2.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Login v2</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?php echo Yii::app()->theme->baseUrl; ?>/assets/pages/examples/register-v2.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Register v2</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?php echo Yii::app()->theme->baseUrl; ?>/assets/pages/examples/forgot-password-v2.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Forgot Password v2</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?php echo Yii::app()->theme->baseUrl; ?>/assets/pages/examples/recover-password-v2.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Recover Password v2</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a href="<?php echo Yii::app()->theme->baseUrl; ?>/assets/pages/examples/lockscreen.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Lockscreen</p>
-                </a>
+               </ul>
               </li>
             </ul>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="nav-icon far  fa fa-group"></i>
+              <i class="nav-icon fa fa-users"></i>
               <p>
                 User
                 <i class="fas fa-angle-left right"></i>
@@ -115,79 +68,9 @@ class Sidebar{
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>
-                    Login & Register v1
-                    <i class="fas fa-angle-left right"></i>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="<?php echo Yii::app()->theme->baseUrl; ?>/assets/pages/examples/login.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Login v1</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?php echo Yii::app()->theme->baseUrl; ?>/assets/pages/examples/register.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Register v1</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?php echo Yii::app()->theme->baseUrl; ?>/assets/pages/examples/forgot-password.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Forgot Password v1</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?php echo Yii::app()->theme->baseUrl; ?>/assets/pages/examples/recover-password.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Recover Password v1</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>
-                    Login & Register v2
-                    <i class="fas fa-angle-left right"></i>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="<?php echo Yii::app()->theme->baseUrl; ?>/assets/pages/examples/login-v2.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Login v2</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?php echo Yii::app()->theme->baseUrl; ?>/assets/pages/examples/register-v2.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Register v2</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?php echo Yii::app()->theme->baseUrl; ?>/assets/pages/examples/forgot-password-v2.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Forgot Password v2</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?php echo Yii::app()->theme->baseUrl; ?>/assets/pages/examples/recover-password-v2.html" class="nav-link">
-                      <i class="far fa-circle nav-icon"></i>
-                      <p>Recover Password v2</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
                 <a href="<?php echo Yii::app()->theme->baseUrl; ?>/assets/pages/examples/lockscreen.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Lockscreen</p>
+                  <p>Ganti Password</p>
                 </a>
               </li>
             </ul>

@@ -20,8 +20,10 @@
         <section class="col-lg-12">
           <div class="card">
 			<div class="card-header">
-              <h3 class="card-title">Master Kategori</h3>
+              <h3 class="card-title">Master User</h3>
               <div class="card-tools">
+					<a href="<?php echo $go['new']; ?>" type="button" class="btn btn-sm btn-warning">
+						<i class="fa fa-plus" style="color: white"></i></a>
 					<a href="<?php echo $go['home']; ?>" type="button" class="btn btn-sm btn-danger">
 						<i class="fa fa-home" style="color: white"></i></a>
               </div>
@@ -45,27 +47,34 @@
 							<th class="thcss">No.</th>
 							<th class="thcss">Kode</th>							
 							<th class="thcss">Nama</th>							
-							<th class="thcss">Jml Soal</th>							
+							<th class="thcss">Aktif</th>							
 							<th class="thcss">Aksi</th>							
 						</tr>
 					</thead>
 					<tbody>
 					<?php
-						$no = 0; 
-						foreach($data as $data) { 
+						$no    = 0;
+						$aktif = array('Non Aktif','Aktif'); 
+						foreach($data as $data) {
 							$no++;
 							
-							$link  = Controller::createUrl('ListSoal',array('idkategori'=>$data['idkategori']));
+							$linked  = Controller::createUrl('EditData',array('id'=>$data['id']));
+							$linkdel = "hapus(". $data['id'] .")";
+							$linkset = "mereset(". $data['id'] .")";
 							
-							$list  = '<a href="'. $link .'" type="button" class="btn btn-xs btn-warning">
-										<i class="fa fa-list" aria-hidden="true"></i></a>';
+							$edit   = '<a href="'. $linked .'" type="button" class="btn btn-xs btn-warning">
+										<i class="fa fa-pen" aria-hidden="true"></i></a>';
+							$reset  = '<a onclick="'. $linkset .'" type="button" class="btn btn-xs btn-info">
+										<i class="fa fa-history" aria-hidden="true"></i></a>';
+							$delete = '<a onclick="'. $linkdel .'" type="button" class="btn btn-xs btn-danger">
+										<i class="fa fa-trash" aria-hidden="true"></i></a>';
 						
 							echo '<tr>
 									<td class="alignR">'. $no .'</td>
-									<td class=" alignC">'. $data['idkategori'] .'</td>
+									<td class=" alignC">'. $data['iduser'] .'</td>
 									<td class="">'. $data['nama'] .'</td>
-									<td class=" alignR">'. $data['jml_soal'] .'</td>
-									<td class="alignC"><div>'. $list .'</div></td>
+									<td class=" alignC">'. $aktif[$data['aktif']] .'</td>
+									<td class="alignC"><div>'. $edit . $reset . $delete .'</div></td>
 								  </tr>';
 						}
 					?>	
@@ -96,4 +105,46 @@
 	//		orderCellsTop: true,
 	//	});
 	//});
+
+	function hapus(id) {
+		let text = "Yakin Akan Dihapus?";
+		if (confirm(text) == true) {
+			$.post( "<?php echo CController::createUrl('HapusData'); ?>", {id:id})
+				.done(function( dMsg ) {
+					
+				alert(dMsg);
+				window.location = "<?php echo $go['back']; ?>";
+
+				//swal({
+				//	html: true,
+				//	title: 'Informasi',
+				//	text: dMsg,
+				//	type: 'info',									
+				//	confirmButtonClass: "btn-info"
+				//}, function(){
+				//	window.location = "<?php echo $go['back']; ?>"; 
+				//});
+			});
+		} 
+	}	
+
+	function mereset(id) {
+		let text = "Yakin Akan Direset Password?";
+		if (confirm(text) == true) {
+			$.post( "<?php echo CController::createUrl('ResetPassword'); ?>", {id:id})
+				.done(function( dMsg ) {
+					
+				alert(dMsg);
+				//swal({
+				//	html: true,
+				//	title: 'Informasi',
+				//	text: dMsg,
+				//	type: 'info',									
+				//	confirmButtonClass: "btn-info"
+				//}, function(){
+				//	window.location = "<?php echo $go['back']; ?>"; 
+				//});
+			});
+		} 
+	}	
 </script>

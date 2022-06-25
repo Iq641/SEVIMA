@@ -4,6 +4,8 @@ class Tool{
 		$kode = strtoupper($kode);
 		if ($kode=='KATEGORI') {
 			$awal = 'KAT';	$jml = 8;
+		} else if ($kode=='USER') {
+			$awal = 'APEL';	$jml = 10;
 		}
 		
 		$sql  = 'kode="'. $kode .'"';
