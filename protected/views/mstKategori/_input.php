@@ -69,7 +69,7 @@
 	function Simpan() {
 		var id   = $('#id').val();
 		var kode = $('#idkategori').val();
-		var nama = $('#nama').val();
+		var nama = $('#nama').val(); 
 		
 		if (id!=0 && kode.trim()=='') {
 			swal("Warning!", 'Kode Kosong', "warning"); 
@@ -82,27 +82,31 @@
 			data['id']		   = id;
 			data['idkategori'] = kode;
 			data['nama']	   = nama;
-			data = JSON.stringify;
+			data = JSON.stringify(data);
 			$.post( "<?php echo CController::createUrl('CheckInput'); ?>", {data:data, aksi:"edit"})
 				.done(function( dCheck ) { 
 				if (dCheck==1) {
-					swal("Warning!", "Nama Kategori Sudah Terdaftar", "warning");
+					alert("Nama Kategori Sudah Terdaftar");
+//					swal("Warning!", "Nama Kategori Sudah Terdaftar", "warning");
 				} else { 
 					$.post( "<?php echo CController::createUrl('SimpanData'); ?>", {data:data})
 						.done(function( dMsg ) {
-					
-						swal({
-							html: true,
-							title: 'Informasi',
-							text: dMsg,
-							type: 'info',									
-							confirmButtonClass: "btn-info"
-						}, function(){
-							window.location = "<?php echo $go['back']; ?>"; 
-						});
+							
+						alert(dMsg);
+						window.location = "<?php echo $go['back']; ?>";
+
+						//swal({
+						//	html: true,
+						//	title: 'Informasi',
+						//	text: dMsg,
+						//	type: 'info',									
+						//	confirmButtonClass: "btn-info"
+						//}, function(){
+						//	window.location = "<?php echo $go['back']; ?>"; 
+						//});
 					});
 				}	
 			});			
 		}
-	}
+	}	
 </script>

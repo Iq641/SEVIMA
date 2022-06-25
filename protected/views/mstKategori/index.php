@@ -48,6 +48,7 @@
 							<th class="thcss">Kode</th>							
 							<th class="thcss">Nama</th>							
 							<th class="thcss">Jml Soal</th>							
+							<th class="thcss">Aksi</th>							
 						</tr>
 					</thead>
 					<tbody>
@@ -55,11 +56,21 @@
 						$no = 0;
 						foreach($data as $data) {
 							$no++;
+							
+							$linked  = Controller::createUrl('EditData',array('id'=>$data['id']));
+							$linkdel = "hapus(". $data['id'] .")";
+							
+							$edit   = '<a href="'. $linked .'" type="button" class="btn btn-xs btn-warning">
+										<i class="fa fa-pen" aria-hidden="true"></i></a>';
+							$delete = '<a onclick="'. $linkdel .'" type="button" class="btn btn-xs btn-danger">
+										<i class="fa fa-trash" aria-hidden="true"></i></a>';
+						
 							echo '<tr>
 									<td class="alignR">'. $no .'</td>
-									<td class="hvr alignC">'. $data['kode'] .'</td>
-									<td class="hvr">'. $data['nama'] .'</td>
-									<td class="hvr alignR">'. $data['jml_soal'] .'</td>
+									<td class=" alignC">'. $data['idkategori'] .'</td>
+									<td class="">'. $data['nama'] .'</td>
+									<td class=" alignR">'. $data['jml_soal'] .'</td>
+									<td class="alignC"><div>'. $edit . $delete .'</div></td>
 								  </tr>';
 						}
 					?>	
@@ -79,15 +90,37 @@
 <!-- /.content-wrapper -->
 
 <script type="text/javascript">
-	$(function() {
-		$('#TblData').DataTable({
-			responsive: true,
-			"searching": true,
-			"autowidth": true,
-			"columnDefs": [
-				{"width": "15%", "targets": 2 }
-			],
-			orderCellsTop: true,
-		});
-	});
+	//$(function() {
+	//	$('#TblData').DataTable({
+	//		responsive: true,
+	//		"searching": true,
+	//		"autowidth": true,
+	//		"columnDefs": [
+	//			{"width": "15%", "targets": 2 }
+	//		],
+	//		orderCellsTop: true,
+	//	});
+	//});
+
+	function hapus(id) {
+		let text = "Yakin Akan Dihapus?";
+		if (confirm(text) == true) {
+			$.post( "<?php echo CController::createUrl('HapusData'); ?>", {id:id})
+				.done(function( dMsg ) {
+					
+				alert(dMsg);
+				window.location = "<?php echo $go['back']; ?>";
+
+				//swal({
+				//	html: true,
+				//	title: 'Informasi',
+				//	text: dMsg,
+				//	type: 'info',									
+				//	confirmButtonClass: "btn-info"
+				//}, function(){
+				//	window.location = "<?php echo $go['back']; ?>"; 
+				//});
+			});
+		} 
+	}	
 </script>

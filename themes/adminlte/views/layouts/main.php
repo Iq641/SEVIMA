@@ -76,6 +76,5 @@
 <!-- AdminLTE for demo purposes -->
 <script src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/dist/js/demo.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/dist/js/pages/dashboard2.js"></script>
 </body>
 </html>

@@ -21,6 +21,7 @@ class MstKategoriController extends Controller
 	public function actionIndex()
 	{
 		$go['home']  = Controller::createUrl('site/index');
+		$go['back']  = Controller::createUrl('index');
 		$go['new'] 	 = Controller::createUrl('NewData');
 		$sql  = 'select * from mst_kategori order by idkategori';
 		$data = Yii::app()->db->createCommand($sql)->queryAll();
@@ -30,13 +31,23 @@ class MstKategoriController extends Controller
 	
 	public function actionNewData()
 	{
-		$go['back']  = Controller::createUrl('admin');
+		$go['back']  = Controller::createUrl('index');
 		$model		 = new MstKategori;
 		$model->id	 = 0;
 		
 		$this->render('_input',array('model'=>$model,'go'=>$go));
 	}
-	
+
+	public function actionEditData()
+	{
+		$go['back']  = Controller::createUrl('index');
+		
+		$id          = $_GET['id'];
+		$model		 = MstKategori::model()->findByPk($id);
+		
+		$this->render('_input',array('model'=>$model,'go'=>$go));
+	}
+		
 	public function actionCheckInput()
 	{
 		$ok = 0;
@@ -44,15 +55,52 @@ class MstKategoriController extends Controller
 		if ($aksi=='del') {
 		} else {
 			$data = $_POST['data'];
-			$data = json_decode($data,true);
+			$data = json_decode($data,true); 
 			$id   = $data['id'];
 			$nama = $data['nama'];
 			
-			$sql  = 'select id from mst_kategori where id<>'. $id .' and nama="'. $nama .'"';
-			$cek  = Yii::app()->db->createCommand($sql)->queryAll();
+			$sql  = 'id<>'. $id .' and nama="'. $nama .'"';
+			$cek  = MstKategori::model()->find($sql);
 			if ($cek!=null) { $ok = 1; }
 		}
 		
 		echo $ok;
 	}	
+		
+	public function actionSimpanData()
+	{
+		$data = json_decode($_POST['data'],true); 
+		$id   = $data['id'];
+		
+		$model = MstKategori::model()->findByPk($id);
+		if($model==null) {			
+			do {
+				$no  = Tool::GETNumber('KATEGORI');
+				$cek = MstKategori::model()->find('idkategori="'. $no .'"');				
+			} while ($cek!=null);
+			
+			$model = new MstKategori;
+			$model->idkategori = $no;
+		}
+
+		$model->nama = $data['nama'];
+		$ok  = $model->save(false);
+		$msg = 'Simpan Data Kategori<br>'. $model->idkategori .' '. $model->nama;
+		if ($ok) { $msg .= ', SUKSES'; 
+		} else {   $msg .= ', GAGAL'; }
+		
+		echo $msg;
+	}		
+
+	public function actionHapusData()
+	{
+		$id    = $_POST['id'];
+		$model = MstKategori::model()->findByPk($id);
+		$msg   = 'Hapus Data Kategori<br>'. $model->idkategori .' '. $model->nama;
+		$ok	   = $model->delete();
+		if ($ok) { $msg .= ', SUKSES'; 
+		} else {   $msg .= ', GAGAL'; }
+		
+		echo $msg;
+	}
 }
