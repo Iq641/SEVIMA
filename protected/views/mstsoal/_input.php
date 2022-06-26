@@ -24,7 +24,7 @@
               <h3 class="card-title">Kategori: <?php echo $kategori['id'] .' '. $kategori['nama']; ?><br>Tambah/ Update Soal </h3>
               <div class="card-tools">
 					<a href="<?php echo $go['back']; ?>" type="button" class="btn btn-sm btn-danger">
-						<i class="fa fa-caret-left" style="color: white"></i></a>
+						<i class="fa fa-times" style="color: white"></i></a>
               </div>
             </div>		  
             <div class="card-body">
@@ -66,7 +66,7 @@
 				<div class="form-group row">
 					<label class="col-sm-3 text-right">Kunci Jawaban<sup style="color:red">*</sup></label>
 					<div class="col-sm-9">
-						<select id="jwb_kunci">
+						<select id="jwb_kunci" class="form-control" style="width: 10%;">
 							<option value="a">A</option>
 							<option value="b">B</option>
 							<option value="c">C</option>

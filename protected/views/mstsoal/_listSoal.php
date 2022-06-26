@@ -25,7 +25,7 @@
 					<a href="<?php echo $go['new']; ?>" type="button" class="btn btn-sm btn-warning">
 						<i class="fa fa-plus" style="color: white"></i></a>
 					<a href="<?php echo $go['back']; ?>" type="button" class="btn btn-sm btn-danger">
-						<i class="fa fa-home" style="color: white"></i></a>
+						<i class="fa fa-times" style="color: white"></i></a>
               </div>
             </div><!-- /.card-header -->		  
             <div class="card-body">

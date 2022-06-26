@@ -52,6 +52,20 @@ class MstsoalController extends Controller
 		
 		$this->render('_input',array('model'=>$model,'go'=>$go, 'kategori'=>$kategori));
 	}
+
+	public function actionEditData()
+	{		
+		$id	   = $_GET['id'];
+		$model = MstSoal::model()->findByPk($id);
+		$idkat = $model->idkategori;
+		$modK  = MstKategori::model()->find('idkategori="'. $idkat .'"');
+		
+		$kategori['id']   = $modK->idkategori;
+		$kategori['nama'] = $modK->nama;
+		$go['back']		  = Controller::createUrl('ListSoal',array('idkategori'=>$kategori['id']));
+		
+		$this->render('_input',array('model'=>$model,'go'=>$go, 'kategori'=>$kategori));
+	}
 	
 	public function actionCheckInput()
 	{
@@ -99,7 +113,14 @@ class MstsoalController extends Controller
 		$model->jwb_kunci = $data['jwb_kunci'];
 		$ok  = $model->save(false);
 		$msg = 'Simpan Data Kategori: '. $model->idkategori .' No. Soal: '. $model->no_soal;
-		if ($ok) { $msg .= ', SUKSES'; 
+		if ($ok) { 
+			$msg .= ', SUKSES';
+			$sql  = 'select count(*) as jml from mst_soal where idkategori="'. $model->idkategori .'"';
+			$cek  = Yii::app()->db->createCommand($sql)->queryAll(); 
+			$modK = MstKategori::model()->find('idkategori="'. $data['idkategori'] .'"');
+			
+			$modK->jml_soal = $cek[0]['jml'];
+			$modK->save(false);
 		} else {   $msg .= ', GAGAL'; }
 		
 		echo $msg;
